@@ -1,0 +1,1499 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Rowdies:wght@300&display=swap");
+@import url( "https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.contenedor{
+    width: 100%;
+    max-width: 1000vh;
+    margin: 0 auto;
+    
+}
+
+.hero{
+    width: 100%;
+    object-fit: cover;
+    height: 90vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h2{
+    letter-spacing: 3px;
+}
+
+.info-logo{
+    margin-top: -290px;
+  margin-left: 690px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 80px;
+    
+}
+
+nav{
+    margin-bottom: 30px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #0000ffd7;
+    top: 0;
+    left: 0;
+    padding: 10px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.inicio{
+    color: #FFF206;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(236, 233, 233);
+    font-size: 17px;
+    letter-spacing: 2px;
+	font-size: 18px;
+}
+nav ul li a:hover{
+    border-bottom: 4px solid #FFF206;
+	transition: 0.4s;
+}
+.content{
+    margin-top: 1000px;
+    margin-right: -240px;
+letter-spacing: 2px;
+    text-align: left;
+    font-weight: 50;
+    margin: 20px;
+}
+
+
+.info-content{
+    margin-left: -400px;
+    gap:  10px;
+    margin-top: 180px;
+}
+.content h1{
+    font-size: 40px;
+    color: #fff209;
+    font-weight: 300;
+    margin-left: 80px;
+    
+    
+}
+
+.content h3{
+    color: #0000ff;
+    margin-left: -50px;
+    font-weight: 100;
+}
+
+.image{
+width: 100%;
+    margin-top: 60px;
+    background-size: cover;
+    
+}
+
+.info-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 60px;
+    
+}
+
+.info-foot h2{
+    color: #0f1ccf;
+    font-size: 30px;
+    font-weight: 30;
+    margin-top: 3-0px;
+}
+
+.info-foot p {
+    color: #19c7c7;
+    font-size: 15px;
+    font-weight: 10;
+    margin: 5px;
+    margin-top: 5px;
+    letter-spacing: px;
+}
+
+.fa-clock{
+    margin-top: 40px;
+}
+
+
+.img1{
+    width: 50%;
+    margin-left: 30px;
+}
+.img2{
+    width: 40%;
+    margin-left: 780px;
+    margin-top: -450px;
+}
+
+.img3{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: -600px;
+}
+
+@media screen and (max-width: 280px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 70px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 90vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 13px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: -20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 30px;
+   }
+
+   .info-foot p{
+       font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 360px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 70px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 90vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 13px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: -20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .info-footer{
+        margin-top: 20px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 20px;
+   }
+
+   .info-foot p{
+       font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 375px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 70px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 90vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 13px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: -20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 30px;
+   }
+
+   .info-foot p{
+       font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 390px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 70px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 90vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 13px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: -20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 30px;
+   }
+
+   .info-foot p{
+       font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 393px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 90px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 15px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 33px;
+   }
+
+   .info-foot p{
+       font-size: 18px;
+   }
+}
+
+
+@media screen and (max-width: 400px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 90px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 15px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 33px;
+   }
+
+   .info-foot p{
+       font-size: 18px;
+   }
+}
+
+
+@media screen and (max-width: 412px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 90px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 15px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 33px;
+   }
+
+   .info-foot p{
+       font-size: 18px;
+   }
+}
+
+
+@media screen and (max-width: 414px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 90px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 100vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 15px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 240px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 33px;
+   }
+
+   .info-foot p{
+       font-size: 18px;
+   }
+}
+
+
+
+@media screen and (max-width: 540px){
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    nav{
+        padding: 10px 90px;
+        height: 20vh;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        margin-left: -0px;
+    }
+
+    nav ul li {
+        
+    
+    }
+
+    .hero{
+        width: 100%;
+        
+        
+      background-position: center;  
+    object-fit: cover;
+    height: 110vh;
+    background: linear-gradient(rgba(45, 13, 226, 0.712), rgba(248, 244, 7, 0.664) );
+    font-family: 'Rowdies', cursive;
+    padding: 0,5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    
+    .info-logo{
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .info-logo img{
+        width: 100%;
+        margin-top: -40px;
+        margin-left: -350px;
+    }
+
+    .content{
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .content h3{
+        font-size: 15px;
+    }
+
+    .info-content{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 280px;
+    }
+    .content h1{
+        margin-top: 0px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    
+
+    .body{
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .images{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 80px;
+        
+    }
+
+    .img1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .img3{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+
+    .info-footer{
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 10px;
+        text-align: center;
+    }
+
+   .info-foot{
+    width: 100%;
+    margin-left: 0px;
+   }
+
+   .info-foot h2{
+    width: 100%;
+    font-size: 30px;
+   }
+
+   .info-foot p{
+       font-size: 15px;
+   }
+}
+

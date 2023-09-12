@@ -1,0 +1,842 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	
+	font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+	width: 100%;
+	max-width: 100%;
+}
+
+.container{
+	
+	width: 100%;
+	
+	overflow: hidden;
+}
+
+.hero{
+    width: 100%;
+    
+    height: 100vh;
+    background-image: #000;
+    
+    padding: 0,5;
+    
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #fee;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+	box-sizing: border-box;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #ff0000;
+}
+.signup a:hover{
+	background-color: red;
+	transition: 0.6s;
+}
+
+
+.body{
+	margin: 40px;
+	margin-left: 3px;
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(Image/img);
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	background: #1312127c;
+	color: #fff;
+}
+.heading h1{
+	text-align: center;
+	font-size: 40px;
+	background-color: #925c5c81;
+	color: rgb(230, 62, 20);
+	
+	border-radius: 25px;
+}
+
+.heading p{
+	font-size: 30px;
+	color: #22ca13;
+	margin: -20px;
+	text-align: center;
+	
+}
+.heading ul{
+	padding-left: 155px;
+	margin: -10px;
+	color: #cee7cc;
+	margin-bottom: 20px;
+}
+
+.heading .btn{
+	margin-left: 70px;
+	
+	
+}
+
+.heading a{
+	gap: 40px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #11d43c;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 30px;
+	background-color: #fff;
+}
+.heading a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.tours{
+	width: 55%;
+	display: flex;
+	justify-content: space-around;
+}
+.places{
+
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.places h2{
+	color: #FFF206;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	background-color: #0000FF;
+}
+.places a{
+	text-decoration: none;
+	color: rgb(248, 246, 246);
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: #14ca33;
+}
+.places a:hover{
+	background-color: #22ca13;
+	color: white;
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+
+
+.mapa{ margin:0;
+	width: 100%;
+}
+
+.direccion{
+	font-size: 30px;
+	text-align: center;
+	margin: -30px;
+	background-color: rgba(199, 170, 170, 0.452);
+}
+ .contacto{  
+text-align: center;
+
+}
+
+i{
+	
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    margin: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: 1s ease;
+    
+}
+
+.fa-tiktok{
+	color: #000;
+}
+
+.fa-facebook{
+	color: #0d1ebb;
+}
+
+.fa-instagram{
+	color: #FF3500;
+}
+
+.fa-tiktok:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 15px black,
+                0 0 45px black,
+                0 0 75px black,
+                
+}
+
+.fa-facebook:hover{
+    background-color: #0d1ebb;
+    color: white;
+    box-shadow: 0 0 15px  #0d1ebb,
+                0 0 45px  #0d1ebb,
+                0 0 75px  #0d1ebb,
+                
+}
+
+.fa-instagram:hover{
+    background-color: #FF3500;
+    color: white;
+    box-shadow: 0 0 15px  #FF3500,
+                0 0 45px  #FF3500,
+                0 0 75px  #FF3500,
+                
+}
+
+
+.mapa{
+	
+
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+@media screen and (max-width:1280px) {
+
+	body{
+		width: 100%;
+		height: auto;
+		justify-content: space-between;
+	}
+	
+	.body{
+	
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		
+	}
+	
+
+	.tours{
+		width: 80%;
+		
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		
+		
+	}
+
+	.places{
+		width: 50%;
+		margin: 60px;
+	}
+
+	.places h2{
+		
+		
+	}
+
+	.heading{
+		width: 50%;
+	}
+
+	.heading .btn{
+		margin-left: 110px;
+	}
+	}
+
+
+		
+@media screen and (max-width:1024px) {
+
+	body{
+		width: 100%;
+		height: auto;
+		justify-content: space-between;
+	}
+	
+	.body{
+	
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		
+	}
+	
+
+	.tours{
+		width: 80%;
+		
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		
+		
+	}
+
+	.places{
+		width: 50%;
+		margin: 60px;
+	}
+
+	.places h2{
+		
+		
+	}
+
+	.heading{
+		width: 50%;
+	}
+	}
+
+
+
+@media screen and (max-width:820px) {
+
+	body{
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+}
+
+.body{
+
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+	
+}
+
+.heading{
+	width: 80%;
+	
+	
+}
+
+.places h2{
+	
+	padding: 10px;
+}
+
+.heading .btn{
+	margin-left: 120px;
+}
+
+	.tours{
+		width: 100%;
+		
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		
+		
+	}
+
+	.places{
+		width: 80%;
+		margin: 60px;
+	}
+	}
+
+@media screen and (max-width:800px) {
+
+	.container{
+		width: 100%;
+	   height: auto;
+		margin-left: 0px;
+	}
+	body{
+		width: 100%;
+		height: auto;
+		justify-content: space-between;
+	}
+
+	.body{
+	
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		
+	}
+
+	.logo{
+		
+	
+	}
+
+	.navbar{
+		width: 100%;
+		height: 40vh;
+		flex-direction: column;
+		
+	}
+
+	.menu{
+		margin-top: -10px;
+		
+		
+	}
+
+	.menu ul{
+		flex-direction: column;
+		
+		
+		
+	}
+
+	.heading{
+		width: 80%;
+		
+		
+	}
+
+	.places h2{
+		
+		padding: 10px;
+	}
+
+	.tours{
+		width: 80%;
+		
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		
+		
+	}
+
+	.places{
+		width: 100%;
+		margin: 60px;
+	}
+
+	.footer{
+		
+		width: 100%;
+		flex-direction: column;
+		margin: 50px;
+		margin-left: 0px;
+		
+	}
+
+	
+
+	.contacto{
+		margin: -20px;
+		width: 100%;
+		display: flex;
+		
+		
+		
+	}
+
+	a i{
+		margin: 85px;
+		padding: 30px;
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width:768px) {
+
+	.contacto{
+	
+		width: 80%;
+		display: flex;
+		text-align: center;
+		
+		
+	}
+
+	i{
+		font-size: 40px;
+		padding: 10px;
+		margin: 100px;
+		
+		
+	}
+
+	}
+
+@media screen and (max-width:414px) {
+	.container{
+		width: 100%;
+	   height: auto;
+		margin-left: 0px;
+	}
+	body{
+		width: 100%;
+		height: auto;
+		justify-content: space-between;
+	}
+
+	.body{
+	
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+		
+	}
+
+	.logo{
+		
+	
+	}
+
+	.navbar{
+		width: 100%;
+		height: 40vh;
+		flex-direction: column;
+		
+	}
+
+	.menu{
+		margin-top: -10px;
+		
+		
+	}
+
+	.menu ul{
+		flex-direction: column;
+		
+		
+		
+	}
+
+	.heading{
+		width: 100%;
+		
+		
+	}
+
+	.heading .btn{
+		margin-left: 80px;
+	}
+
+	.places h2{
+		
+		padding: 10px;
+	}
+
+	.tours{
+		width: 100%;
+		
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		
+		
+	}
+
+	.places{
+		width: 100%;
+		margin: 60px;
+	}
+
+	.footer{
+		
+		width: 100%;
+		flex-direction: column;
+		margin: 50px;
+		margin-left: 0px;
+		
+	}
+
+	
+
+	.contacto{
+	
+		width: 80%;
+		display: flex;
+		text-align: center;
+		
+		
+	}
+
+	a i{margin: 42px;
+		font-size: 25px;
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width:467px) {
+
+	.contacto{
+	
+		width: 80%;
+		display: flex;
+		text-align: center;
+		
+		
+	}
+
+	i{
+		font-size: 20px;
+		padding: 0px;
+		
+		
+	}
+
+	}
+
+		
+	@media screen and (max-width:412px) {
+
+
+		.tours{
+			width: 100%;
+			
+			align-items: center;
+			text-align: center;
+			flex-direction: column;
+			
+			
+		}
+	
+		.places{
+			width: 100%;
+			margin: 60px;
+		}
+
+		.places h2{
+			
+			
+		}
+	
+		.heading{
+			width: 100%;
+		}
+
+		.heading .btn{
+			margin-left: 90px;
+		}
+
+		.heading ul{
+			margin-left: -10px;
+		}
+		.contacto{
+		margin-top: -50px;
+			width: 80%;
+			display: flex;
+			text-align: center;
+			
+			
+		}
+	
+		i{
+			font-size: 40px;
+			padding: 0px;
+			margin: 55px;
+			
+			
+		}
+	
+		}
+
+	@media screen and (max-width:400px) {
+
+
+		.tours{
+			width: 100%;
+			
+			align-items: center;
+			text-align: center;
+			flex-direction: column;
+			
+			
+		}
+	
+		.places{
+			width: 100%;
+			margin: 60px;
+		}
+}
+
+	@media screen and (max-width:393px) {
+
+
+		.tours{
+			width: 100%;
+			
+			align-items: center;
+			text-align: center;
+			flex-direction: column;
+			
+			
+		}
+	
+		.places{
+			width: 100%;
+			margin: 60px;
+		}
+}
+
+	@media screen and (max-width:360px) {
+
+
+		.tours{
+			width: 100%;
+			
+			align-items: center;
+			text-align: center;
+			flex-direction: column;
+			
+			
+		}
+	
+		.places{
+			width: 100%;
+			margin: 60px;
+		}
+
+		.places h2{
+			
+			
+		}
+	
+		.contacto{
+		
+			width: 80%;
+			display: flex;
+			text-align: center;
+			
+			
+		}
+	
+		a i{
+			font-size: 20px;
+			padding: 20px;
+			margin: 35px;
+			
+			
+		}
+	
+		}
+
+		
+	@media screen and (max-width:280px) {
+
+
+		.tours{
+			width: 100%;
+			
+			align-items: center;
+			text-align: center;
+			flex-direction: column;
+			
+			
+		}
+	
+		.places{
+			width: 100%;
+			margin: 60px;
+		}
+
+		.places h2{
+			
+			
+		}
+	
+		.heading{
+			width: 100%;
+		}
+
+		.heading .btn{
+			margin-left: 20px;
+		}
+
+		.heading ul{
+			margin-left: -70px;
+		}
+		.contacto{
+		margin-top: -50px;
+			width: 80%;
+			display: flex;
+			text-align: center;
+			
+			
+		}
+	
+		a i{
+			font-size: 20px;
+			padding: 0px;
+			margin: 40px;
+			
+			
+		}
+	
+		}
+
+
+
+
+
+
+
+
+
+
+
+
